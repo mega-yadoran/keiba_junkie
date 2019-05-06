@@ -3,29 +3,6 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
-public class Horse
-{
-    public string Name { get; set; }
-    public string Sex { get; set; }
-    public int Age { get; set; }
-    public int Rating { get; set; }
-    public Jockey Jockey { get; set; }
-    public int PopularNumber { get; set; }
-    public float Odds { get; set; }
-    public float PopularValue { get; set; }
-
-    public void CalcPopularValue()
-    {
-        PopularValue = (Mathf.Pow((float)Rating / 100 ,30) + Rating * Jockey.Winrate / 1000) * Random.Range(0.9f, 1.1f);
-    }
-}
-
-public class Jockey
-{
-    public string Name { get; set; }
-    public float Winrate { get; set; }
-}
-
 public class CsvController : MonoBehaviour {
 
     const int CSV_CULUMN_NUM_HORSE_RATING = 0;
