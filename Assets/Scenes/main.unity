@@ -1148,8 +1148,8 @@ MonoBehaviour:
   - {fileID: 1887166709}
   - {fileID: 1516817399}
   ResultHorseUIObjects:
-  - {fileID: 1567000958805524, guid: c37cede45ee80574691c8a645df7a3b1, type: 2}
-  - {fileID: 1862338335598496, guid: 5a73b07e1a88c784e939586f8f8088ec, type: 2}
+  - {fileID: 1337314100535054, guid: 533fed1926d5cbc4a8967aacc0bf19a4, type: 2}
+  - {fileID: 1040316293001274, guid: c37cede45ee80574691c8a645df7a3b1, type: 2}
   - {fileID: 1452601839020690, guid: 1c1486ea6722e9943934639b85e42690, type: 2}
   - {fileID: 1821842878322116, guid: e5386ce0fd5abc34b9c25e694233aabf, type: 2}
   - {fileID: 1273494716462418, guid: 3ea6d7124ad44164d91cbdb2e7f89f08, type: 2}
